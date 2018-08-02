@@ -24,7 +24,7 @@ end
 include_recipe 'git'
 
 git '/opt/stacktorm/docker/st2-docker' do
-  repository 'git@github.com:stackstorm/st2-docker'
+  repository 'https://github.com/seankaufman/cookbook-stackstorm-docker.git'
   reference 'master'
   action :sync
 end
